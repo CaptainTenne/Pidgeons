@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "using_item": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:magma_cream",
+            "predicates": {
+              "minecraft:custom_data": "{pidgeon:true}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "pidgeons:use_pidgeon/use_pidgeon"
+    }
+  }

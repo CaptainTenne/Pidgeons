@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "using_item": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:book",
+            "predicates": {
+              "minecraft:custom_data": "{sealed:true}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "pidgeons:use_sealed_book/use_sealed_book"
+    }
+  }
