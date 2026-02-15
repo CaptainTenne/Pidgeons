@@ -1,12 +1,12 @@
 {
     "criteria": {
       "using_item": {
-        "trigger": "minecraft:using_item",
+        "trigger": "minecraft:consume_item",
         "conditions": {
           "item": {
             "items": "minecraft:book",
             "predicates": {
-              "minecraft:custom_data": "{sealed:true}"
+              "minecraft:custom_data": "{sealed:book}"
             }
           }
         }
