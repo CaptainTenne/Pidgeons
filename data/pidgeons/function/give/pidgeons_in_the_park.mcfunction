@@ -1,0 +1,1 @@
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", count:1b, components:{"minecraft:item_model":"pidgeons:pidgeons_in_the_park", "minecraft:jukebox_playable":"pidgeons:pidgeons_in_the_park"}}}

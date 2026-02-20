@@ -4,7 +4,7 @@
         "trigger": "minecraft:using_item",
         "conditions": {
           "item": {
-            "items": "minecraft:magma_cream",
+            "items": "minecraft:music_disc_11",
             "predicates": {
               "minecraft:custom_data": "{pidgeon:true}"
             }

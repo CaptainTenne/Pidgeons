@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "book_id_set": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "written_book",
+            "predicates": {
+              "minecraft:written_book_content": {
+                "pages": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pidgeons:assign_book_id/check_book_id"
+  }
+}

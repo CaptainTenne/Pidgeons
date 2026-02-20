@@ -45,16 +45,15 @@
                     "name": "minecraft:music_disc_11",
                     "functions": [
                         {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_model": "pidgeons:duifies_duifies",
-                                "minecraft:jukebox_playable": {
-                                    "song": "pidgeons:duifies_duifies"
-                                }
-                            }
-                        }
+                          "function": "minecraft:set_components",
+                          "components": {
+                                                     "minecraft:item_model": "pidgeons:duifies_duifies",
+                                        "minecraft:jukebox_playable": "pidgeons:duifies_duifies"
+                                        }
+                                    }
                     ]
                 }
+                
             ],
             "conditions": [
                 {

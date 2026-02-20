@@ -1,3 +1,2 @@
-item replace entity @s weapon with written_book
-playsound block.azalea.break
-advancement revoke @s only pidgeons:use_sealed_book
+execute unless items entity @s weapon.mainhand minecraft:book run function pidgeons:use_sealed_book/return_sealed_book {hand:weapon.offhand}
+execute if items entity @s weapon.mainhand minecraft:book run function pidgeons:use_sealed_book/return_sealed_book {hand:weapon.mainhand} 

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 0.1,
+  "ingredient": "minecraft:sweet_berries",
+  "result": {
+    "id": "minecraft:ink_sac",
+    "components": {
+      "minecraft:item_model":"pidgeons:ink",
+      "minecraft:item_name":"Ink" 
+  }
+}
+}

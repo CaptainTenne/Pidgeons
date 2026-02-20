@@ -1,1 +1,1 @@
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", count:1b, components:{"minecraft:item_model":"pidgeons:duifies_duifies", "minecraft:jukebox_playable":{song:"pidgeons:duifies_duifies"}}}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", count:1b, components:{"minecraft:item_model":"pidgeons:duifies_duifies", "minecraft:jukebox_playable":"pidgeons:duifies_duifies"}}}

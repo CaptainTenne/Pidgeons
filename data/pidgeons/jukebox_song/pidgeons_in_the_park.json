@@ -1,0 +1,8 @@
+{
+    "comparator_output": 11,
+    "description": "Tom Lehrer - Pidgeons in the Park",
+    "length_in_seconds": 130.000,
+    "sound_event": {
+        "sound_id": "custom.pidgeons_in_the_park"
+    }
+}   
