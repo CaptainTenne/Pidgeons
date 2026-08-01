@@ -9,8 +9,11 @@ item modify entity @s weapon.mainhand {function:"minecraft:set_custom_data",tag:
 #Set book ID
 item modify entity @s weapon.mainhand {function:"minecraft:copy_custom_data",source:{type:"minecraft:storage",source:"pidgeons:temp"},ops:[{source:"book_id_counter",target:"book_id",op:"replace"}]}
 
+#Remove author
+item modify entity @s weapon.mainhand [{"function": "minecraft:set_book_cover","author": ""}]
+
 #Store Book using current scoreboard ID
-execute run function pidgeons:assign_book_id/store_book_mainhand with entity @s SelectedItem.components."minecraft:custom_data"
+execute run function pidgeons:assign_book_id/store_book_mainhand with entity @s equipment.mainhand.components."minecraft:custom_data"
 
 #Increase scoreboard
 scoreboard players add book_id_counter book_id_counter 1

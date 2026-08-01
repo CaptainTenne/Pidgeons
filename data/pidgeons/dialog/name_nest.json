@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "text": "Pidgeon Nest"
+    },
+    "body": {
+        "type": "minecraft:item",
+        "item": {
+            "id": "barrier"
+        }
+    },
+    "inputs": [
+        {
+            "type": "minecraft:text",
+            "key": "name",
+            "initial": "Pidgeon Nest",
+            "label": ""
+        }
+    ],
+    "action": {
+        "label": "Rename",
+        "action": {
+            "type": "run_command",
+            "command": "playsound entity.generic.explode"
+        }
+    }
+}

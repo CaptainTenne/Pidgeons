@@ -1,0 +1,1 @@
+$data modify storage pidgeons:main book_storage.$(book_id) set from entity @s equipment.offhand

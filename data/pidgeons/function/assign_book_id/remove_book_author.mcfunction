@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand [{"function": "minecraft:set_book_cover","author": ""}]

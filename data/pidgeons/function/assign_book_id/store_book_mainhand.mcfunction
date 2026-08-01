@@ -1,1 +1,1 @@
-$data modify storage pidgeons:main book_storage.$(book_id) set from entity @s SelectedItem
+$data modify storage pidgeons:main book_storage.$(book_id) set from entity @s equipment.mainhand
