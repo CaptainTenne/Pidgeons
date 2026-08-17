@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "written_book"
+                    ]
+                },
+                "entity": {
+                    "minecraft:nbt": {
+                        "Tags": [
+                            "active_pidgeon_child"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pidgeons:interact_pidgeon/give_book"
+    }
+}

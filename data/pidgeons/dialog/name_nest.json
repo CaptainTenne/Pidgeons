@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "text": "Pidgeon Nest"
+    },
+    "body": {
+        "type": "minecraft:item",
+        "item": {
+            "id": "barrier"
+        }
+    },
+    "inputs": [
+        {
+            "type": "minecraft:text",
+            "key": "name",
+            "initial": "Pidgeon Nest",
+            "label": ""
+        }
+    ],
+    "action": {
+        "label": "Rename",
+        "action": {
+            "type": "run_command",
+            "command": "playsound minecraft:entity.villager.work_cartographer"
+        }
+    },
+    "can_close_with_escape": false,
+    "pause": false
+}
